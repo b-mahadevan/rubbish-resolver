@@ -18,6 +18,17 @@ Rubbish Resolver is an AI-enabled waste classification system that leverages a c
 
 ---
 
+## 📂 Dataset
+
+The dataset used for training and testing is available at the following sources:
+
+- ✅ **Primary Source (UCI Machine Learning Repository):** [Click here](https://archive.ics.uci.edu/dataset/908/realwaste)
+- 🔁 **Alternative Source (Kaggle):** [Click here](https://www.kaggle.com/datasets/luvvalecha/real-waste-dataset)
+
+If the primary link is unavailable, feel free to use the alternative source.
+
+---
+
 ## 🗃 Waste Categories
 
 - 🧃 Plastic  
