@@ -113,15 +113,15 @@ def prediction_page():
                 # Waste type description
                 
                 waste_descriptions = {
-                    'Cardboard': 'Electronic waste that requires special disposal.',
-                    'Food Organics': 'Organic waste that can be composted.',
-                    'Glass': 'Glass containers that can be recycled.',
-                    'Metal': 'Paper-based material that can be recycled.',
-                    'Miscellaneous Trash': 'Textile waste that can be donated or recycled.',
-                    'Paper': 'Glass containers that can be recycled.',
-                    'Plastic': 'Metal objects that can be recycled.',
-                    'Textile Trash': 'Paper products that can be recycled.',
-                    'Vegatation': 'Plastic items that can be recycled.'
+                    'Cardboard': 'Corrugated cardboard that should be flattened and recycled with paper products.',
+                    'Food Organics': 'Food scraps and biodegradable waste that should be composted or placed in organic waste bins.',
+                    'Glass': 'Glass bottles and jars that should be rinsed and recycled (check local guidelines for colors).',
+                    'Metal': 'Clean metal cans and foil that can be recycled indefinitely.',
+                    'Miscellaneous Trash': 'Non-recyclable waste that should go in general landfill bins.',
+                    'Paper': 'Clean paper and cardboard that should be dry and uncontaminated for recycling.',
+                    'Plastic': 'Plastic containers, bottles, and packaging; recyclable depending on local guidelines.',
+                    'Textile Trash': 'Worn-out fabrics that should be donated if usable or recycled as rags.',
+                    'Vegetation': 'Yard trimmings and plant matter that should be composted or processed as green waste.'
                 }
                 st.info(waste_descriptions.get(predicted_class, "Waste type description not available."))
                 
