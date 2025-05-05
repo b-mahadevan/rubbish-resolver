@@ -1,5 +1,11 @@
-# Ignore all .h5 model files
-*.h5
+# Ignore the entire models folder and its contents
+/models/
 
-# Ignore all .tflite model files
-*.tflite
+# Ignore only waste2.h5 inside streamlit folder
+/deployment/streamlit/waste2.h5
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
