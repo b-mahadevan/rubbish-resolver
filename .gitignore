@@ -1,0 +1,5 @@
+# Ignore all .h5 model files
+*.h5
+
+# Ignore all .tflite model files
+*.tflite
