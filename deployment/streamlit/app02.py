@@ -141,15 +141,15 @@ def about_page():
     3. Get information about proper disposal
     
     ### Supported Waste Categories
-    - Battery
-    - Food Waste
-    - Brown-Glass
     - Cardboard
-    - Clothes
-    - Green-Glass
+    - Food Organics
+    - Glass
     - Metal
+    - Miscellaneous Trash
     - Paper
     - Plastic
+    - Textile Trash
+    - Vegetation
     """)
 
 # Model Information Page
