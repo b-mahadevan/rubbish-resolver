@@ -31,15 +31,15 @@ If the primary link is unavailable, feel free to use the alternative source.
 
 ## 🗃 Waste Categories
 
-- 🧃 Plastic  
-- 📄 Paper  
-- 🥫 Metal  
-- 🍌 Food Organics  
-- 🧻 Cardboard  
-- 🧤 Textile Trash  
-- 🍃 Vegetation  
-- 🗑️ Miscellaneous Trash  
-- 🍾 Glass
+- 📦 Cardboard
+- 🥦 Food Organics
+- 🍾 Glass  
+- 🥫 Metal
+- 🗑️ Miscellaneous Trash 
+- 📄 Paper 
+- 🧴 Plastic
+- 🧤 Textile Trash 
+- 🍃 Vegetation
 
 ---
 
