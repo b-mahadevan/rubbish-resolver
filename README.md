@@ -6,12 +6,13 @@ Rubbish Resolver is an AI-enabled waste classification system that leverages a c
 
 ## 🚀 Project Highlights
 
-- 🧠 **Custom CNN Model:** Trained on **8,289 labeled waste images** spanning 9 categories including plastic, metal, paper, food organics, etc.
-- 🔄 **Data Augmentation:** Utilized **TensorFlow’s `ImageDataGenerator`** to generate **3,500+ new samples**, improving dataset balance and boosting model learning.
+- 🧠 Custom CNN Model: Developed using a CNN trained on 8,289 labeled images across 9 waste categories, including plastic, cardboard, metal, and glass.
+- 🔄 Data Augmentation: Expanded the dataset from 4,752 to 8,252 images using **ImageDataGenerator** (rotation, flip, zoom), resulting in a 12% improvement in model accuracy.
 - 📊 **Performance Accuracy:**
   - ✅ Training: **87.91%**
   - ✅ Validation: **83.76%**
   - ✅ Test: **80.41%**
+- 📈 Visualization & Processing: Used Matplotlib and NumPy for data analysis and visualization.
 - ⚡ **Real-Time Prediction:** Delivered via two platforms:
   1. **Streamlit App** – A lightweight, single-page demo for rapid testing.
   2. **Django App** – A full-stack interface with image uploads, prediction visualizations, and eco-friendly disposal tips.
