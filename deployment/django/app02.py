@@ -113,15 +113,15 @@ def prediction_page():
                 # Waste type description
                 
                 waste_descriptions = {
-                'Cardboard': 'Cardboard and paperboard packaging that can be recycled. Flatten boxes and remove any non-paper materials like tape or plastic before recycling.',
-                'Food Organics': 'Organic food waste that can be composted. Includes fruit/vegetable scraps, coffee grounds, and eggshells. Avoid meat/dairy in home composting.',
-                'Glass': 'Glass bottles and jars that can be recycled indefinitely. Rinse containers and remove lids. Note: Ceramics and window glass cannot go with bottle recycling.',
-                'Metal': 'Metal containers (cans, tins) and foil that can be recycled. Rinse food residue. Separate aluminum and steel if required by your local recycling program.',
-                'Miscellaneous Trash': 'Non-recyclable waste that must go to landfill. Includes composite materials, heavily soiled items, and certain plastics. Try to minimize this category.',
-                'Paper': 'Clean paper products (newspapers, magazines, office paper) that can be recycled. Remove any plastic wrapping or laminated coatings first.',
-                'Plastic': 'Plastic containers and packaging marked with recycling symbols ♳♴♵♶♷♸♹. Check local guidelines as only certain types may be recyclable in your area.',
-                'Textile Trash': 'Worn-out clothing and fabrics that can be donated or recycled. Even damaged textiles can often be repurposed as rags or insulation material.',
-                'Vegetation': 'Yard/garden waste like leaves, grass clippings, and small branches. Can be composted or processed into mulch. Avoid invasive plant species.'
+                    'Cardboard': 'Corrugated cardboard that should be flattened and recycled with paper products.',
+                    'Food Organics': 'Food scraps and biodegradable waste that should be composted or placed in organic waste bins.',
+                    'Glass': 'Glass bottles and jars that should be rinsed and recycled (check local guidelines for colors).',
+                    'Metal': 'Clean metal cans and foil that can be recycled indefinitely.',
+                    'Miscellaneous Trash': 'Non-recyclable waste that should go in general landfill bins.',
+                    'Paper': 'Clean paper and cardboard that should be dry and uncontaminated for recycling.',
+                    'Plastic': 'Plastic containers, bottles, and packaging; recyclable depending on local guidelines.',
+                    'Textile Trash': 'Worn-out fabrics that should be donated if usable or recycled as rags.',
+                    'Vegetation': 'Yard trimmings and plant matter that should be composted or processed as green waste.'
             }
                 st.info(waste_descriptions.get(predicted_class, "Waste type description not available."))
                 
