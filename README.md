@@ -55,8 +55,8 @@
 
 ## 📂 Dataset
 
-- **Primary Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Garbage+classification)  
-- **Alternative Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification)
+- **Primary Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/908/realwaste)  
+- **Alternative Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/luvvalecha/real-waste-dataset)
 
 > 💡 If the UCI link is down, you can use the Kaggle mirror to continue development.
 
