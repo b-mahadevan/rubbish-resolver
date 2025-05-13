@@ -34,22 +34,22 @@
 
 ### ⚡ Real-Time Prediction Platforms
 
-- **🔹 Streamlit App (Lightweight Demo)**  
-  - 🖼️ **Upload Waste Images:** Simple drag-and-drop upload interface.
-  - 📈 **Real-Time Inference:** Uses the same CNN model to give instant predictions.
-  - 📊 **Prediction Visualization:** Bar chart showing probabilities for all 9 waste classes.
-  - 📃 **Descriptive Output:** Each result includes details and proper disposal tips.
-  - 🚀 **Quick Deployment:** Lightweight and shareable, ideal for demonstrations or testing.
+**🔹 Streamlit App (Lightweight Demo)**  
+- 🖼️ **Upload Waste Images:** Simple drag-and-drop upload interface.
+- 📈 **Real-Time Inference:** Uses the same CNN model to give instant predictions.
+- 📊 **Prediction Visualization:** Bar chart showing probabilities for all 9 waste classes.
+- 📃 **Descriptive Output:** Each result includes details and proper disposal tips.
+- 🚀 **Quick Deployment:** Lightweight and shareable, ideal for demonstrations or testing.
 
-- **🔹 Rubbish Resolver (Django Web App)**  
-  - 📤 **Image Upload:** Upload waste images (JPG, JPEG, PNG) via a clean and responsive interface.
-  - 🧠 **Real-Time Prediction:** Classifies uploaded waste items instantly using a custom-trained CNN model.
-  - 📊 **Confidence Score Bar:** Visual indicator displays prediction confidence for transparency.
-  - 📄 **Predicted Class & Description:** Shows waste category with an eco-friendly disposal description.
-  - ♻️ **Disposal Tip:** Offers actionable sustainability guidance based on waste type.
-  - 🧩 **Category Overview:** Quick reference boxes for waste types like Recyclable, Organic, and Hazardous.
-  - 🌱 **Eco-Friendly Design:** Clean UI that encourages responsible waste handling.
-  - ⚙️ **Powered by Django:** Built with Django templates, forms, and view logic integrated with the model.
+**🔹 Rubbish Resolver (Django Web App)**  
+- 📤 **Image Upload:** Upload waste images (JPG, JPEG, PNG) via a clean and responsive interface.
+- 🧠 **Real-Time Prediction:** Classifies uploaded waste items instantly using a custom-trained CNN model.
+- 📊 **Confidence Score Bar:** Visual indicator displays prediction confidence for transparency.
+- 📄 **Predicted Class & Description:** Shows waste category with an eco-friendly disposal description.
+- ♻️ **Disposal Tip:** Offers actionable sustainability guidance based on waste type.
+- 🧩 **Category Overview:** Quick reference boxes for waste types like Recyclable, Organic, and Hazardous.
+- 🌱 **Eco-Friendly Design:** Clean UI that encourages responsible waste handling.
+- ⚙️ **Powered by Django:** Built with Django templates, forms, and view logic integrated with the model.
 
 ---
 
